@@ -26,14 +26,13 @@ public class HomeController {
 	public String home(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
 		
-<<<<<<< HEAD
 		logger.info("응답하라 박태양 유지은  !!");
 		logger.info("무서워해 박태양 123");
 		logger.info("무서워해 박태양 123456789");
-=======
+
 		logger.info("응답하라 박태양 유지은 이도욱 변지훈 !!");
 		logger.info("무서워해 박태양 112314134134124123423");
->>>>>>> refs/remotes/dongjin1204/master
+
 		
 		Date date = new Date();
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
